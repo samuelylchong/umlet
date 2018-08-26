@@ -8,3 +8,12 @@ notifications:
   email: # only send an email if build fails
     on_success: never
     on_failure: always
+
+addons:
+  sonarcloud:
+    organization: "samuelylchong-github" # the key of the org you chose at step #3
+    token:
+      secure: b5499df4924f418ea703639bc0298db692be56bd # encrypted value of your token
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
