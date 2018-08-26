@@ -33,5 +33,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/samue/Desktop/Samuel/Software Testing/Software_Testing_Jar_Files/JUnitParams-1.0.5.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
