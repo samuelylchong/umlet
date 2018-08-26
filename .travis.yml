@@ -4,10 +4,10 @@ jdk:
   - openjdk8
 script: "mvn clean install -P checks"
 
-notifications:
-  email: # only send an email if build fails
-    on_success: never
-    on_failure: always
+#notifications:
+ # email: # only send an email if build fails
+  #  on_success: never
+   # on_failure: always
 
 addons:
   sonarcloud:
