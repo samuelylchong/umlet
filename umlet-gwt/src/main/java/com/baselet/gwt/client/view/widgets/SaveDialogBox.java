@@ -67,7 +67,7 @@ public class SaveDialogBox extends MyPopupPanel {
 
 	private void submitDialog(final Callback callback) {
 		if (textBox.getText().isEmpty()) {
-			Window.alert("Please enter a name to save the diagram");
+			Window.alert("You must enter a name to save the dialog");
 		}
 		else {
 			hide();
